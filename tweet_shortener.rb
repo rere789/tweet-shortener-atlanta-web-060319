@@ -42,12 +42,6 @@ def shortened_tweet_truncator(array)
       end 
 end 
 
-# def shortened_tweet_truncator(tweet)
-#   shorten_tweet = selective_tweet_shortener(tweet)
-#   shorten_tweet.length > 140 ? shorten_tweet[0..135] << " ..." : shorten_tweet
-# end
-
-
 
 
 
