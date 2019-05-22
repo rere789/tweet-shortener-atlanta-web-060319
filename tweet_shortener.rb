@@ -36,8 +36,8 @@ end
 def shortened_tweet_truncator(array)
       new_array = word_substituter(array)
       if new_array.length > 140 
-        
-  
+        new_array.string[0..10]
+      end 
 end 
 
 
