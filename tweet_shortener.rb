@@ -36,7 +36,7 @@ end
 def shortened_tweet_truncator(array)
       new_array = selective_tweet_shortener(array)
       if new_array.length > 140 
-        new_array.string[0..135] << "..."
+        new_array[0..135] << "..."
       else 
         new_array 
       end 
